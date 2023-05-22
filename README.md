@@ -10,7 +10,7 @@ Os usuários podem realizar buscas com base no gênero e na classificação dos 
 
 ## Modelo conceitual
 
-![App Screenshot](https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
+![App Screenshot](https://github.com/matheusgmello/dslist-backend/blob/325eae32ad551b242e20b4623c32aff71a73b3c1/assets/retorno%20api%20end%20point.png)
 
 ## End Points
 - `GET games`: Busca a lista de jogos
