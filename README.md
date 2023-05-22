@@ -10,7 +10,7 @@ Os usuários podem realizar buscas com base no gênero e na classificação dos 
 
 ## Modelo conceitual
 
-![App Screenshot](https://github.com/matheusgmello/dslist-backend/blob/325eae32ad551b242e20b4623c32aff71a73b3c1/assets/retorno%20api%20end%20point.png)
+![App Screenshot](https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
 
 ## End Points
 - `GET games`: Busca a lista de jogos
@@ -20,7 +20,7 @@ Os usuários podem realizar buscas com base no gênero e na classificação dos 
 - `POST list replacement`: Organiza a lista como o usuário preferir
 
 ## Retorno da API
-![App Screenshot](https://github.com/matheusgmello/readme-example/blob/8512d78af3dd3631db8cbb40d3d6f83330a3a5d8/assets/retorno%20api%20end%20point.png)
+![App Screenshot](https://github.com/matheusgmello/dslist-backend/blob/ea73c3a2f73d0ed3a3dc308fa81e5f8bfeee4179/assets/retorno%20api%20end%20point.png)
 
 # Tecnologias utilizadas
 
