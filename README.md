@@ -1,56 +1,47 @@
 # DSList
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/matheusgmello/dslist-backend/blob/main/LICENSE) 
 
-# Sobre o projeto
+## Readme em [PT-BR](https://github.com/matheusgmello/dslist-api/blob/main/README-PT-BR.md) 📜
+# About the project
 
-DSList é uma aplicação Back-end construída durante o Intensivão Java Spring, evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+DSList is a Rest API built during the Intensivão Java Spring, an event organized by [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-A aplicação é uma pesquisa de games que permite aos usuários encontrar informações sobre diferentes jogos.
-Os usuários podem realizar buscas com base no gênero e na classificação dos jogos. A aplicação também possui um endpoint especial que permite a ordenação personalizada da lista de jogos.
+The API is a game search engine that allows users to find information about different games. Users can perform searches based on the genre and rating of the games. The API also features an endpoint that allows the user to organize the list in their preferred way.
 
-## Modelo conceitual
+## Domain Model
 
 ![App Screenshot](https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
 
 ## End Points
-- `GET games`: Busca a lista de jogos
-- `GET games by id`: Busca um jogo por meio de ID
-- `GET games lists`: Busca a categoria das listas de jogos
-- `GET games by lists`: Busca uma lista por meio de seu ID mostrando quais jogos estão dentro desta categoria
-- `POST list replacement`: Organiza a lista como o usuário preferir
+- `GET Games`: Search for the list of games
+- `GET Games by ID`: Search for a game by its ID
+- `GET Lists`: Search for the category of the game lists
+- `GET Lists by ID from Games`: Search the list categorized by the genre (ID) of the games
+- `POST Lists Replacement`: Allows the user to organize the list in their preferred way
 
-## Retorno da API
+## The API's response
 ![App Screenshot](https://github.com/matheusgmello/dslist-backend/blob/ea73c3a2f73d0ed3a3dc308fa81e5f8bfeee4179/assets/retorno%20api%20end%20point.png)
 
-# Tecnologias utilizadas
+# Technologies
 
 ## Back end
 - Java
 - Spring Boot
-- H2 Console
-- JPA / Hibernate
-- Maven
-
-## Implantação em produção
-- Banco de dados: Postgresql
-
-# Como executar o projeto
-
-Pré-requisitos: Java 17
-
+- PostgreSQL
+  
+# How to Run
+### Prerequisites: Java 17
 
 ```bash
-# clonar repositório
-git clone https://github.com/matheusgmello/dslist-backend
+# Clone repository
+git clone https://github.com/matheusgmello/dslist-api
 
-# entrar na pasta do projeto back end
+# Enter the backend folder
 cd dslist-backend
 
-# executar o projeto
+# Run the project
 ./mvnw spring-boot:run
 ```
 
-
-# Autor
-
-Matheus Gabriel Fleck de Mello
+# Author
+[Matheus Gabriel Fleck de Mello](https://www.linkedin.com/in/matheus-gabriel-fleck-de-mello/)
